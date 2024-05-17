@@ -1,0 +1,58 @@
+.hotDeals {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  color: var(--token-kzT08fQBAHgz);
+  cursor: pointer;
+  position: relative;
+  transition-property: border;
+  transition-duration: 1s;
+  transition-delay: -1s;
+  transition-timing-function: linear;
+  min-height: 0;
+  -webkit-transition-property: border;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-delay: -1s;
+  padding: 0px 4px;
+}
+.hotDeals > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.hotDeals > :global(.__wab_flex-container) > *,
+.hotDeals > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.hotDeals > :global(.__wab_flex-container) > picture > img,
+.hotDeals
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.hotDeals:hover {
+  color: var(--token-kzT08fQBAHgz);
+  border-bottom: 2px solid var(--token-hb610yGAurc2);
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 500;
+  min-width: 0;
+}

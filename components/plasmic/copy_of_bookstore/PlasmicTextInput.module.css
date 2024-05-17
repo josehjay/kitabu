@@ -1,0 +1,125 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  background: var(--token-Yq556PvPjGii);
+  position: sticky;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: 2px solid #dbdbd7;
+}
+.rootglobal_mode_darkMode {
+  background: var(--token-ZJyLUvieIUmG);
+  border-width: 2px;
+  border-color: var(--token-2w1UGLt0EBaJ);
+}
+.root:hover {
+  border-width: 2px;
+  border-color: var(--token-pRs3-4jrQ4XQ);
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px var(--token-ukwKZMvHWx7C);
+  outline: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: var(--token-pRs3-4jrQ4XQ);
+}
+.rootglobal_mode_darkMode:focus-within {
+  box-shadow: 0px 0px 0px 3px var(--token-5OZEb1MGGCI4);
+  outline: none;
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px var(--token-ukwKZMvHWx7C);
+  outline: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: var(--token-pRs3-4jrQ4XQ);
+}
+.rootglobal_mode_darkMode____focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px var(--token-5OZEb1MGGCI4);
+  outline: none;
+}
+.startIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-right: 8px;
+  display: none;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.root .startIconContainer___focusVisibleWithin {
+  outline: none;
+}
+.slotTargetStartIconshowStartIcon {
+  color: #90908c;
+}
+.svg__aaAm8 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.input {
+  width: 100%;
+  left: auto;
+  top: auto;
+  background: #ffffff00;
+  min-width: 0;
+  padding: 0px;
+  border-width: 0px;
+}
+.inputglobal_mode_darkMode {
+  color: var(--token-0pLHWnYhePL5);
+}
+.inputisDisabled {
+  cursor: not-allowed;
+}
+.root:focus-within .input {
+  outline: none;
+}
+.root .input___focusVisibleWithin {
+  outline: none;
+}
+.root .input:focus {
+  outline: none;
+}
+.root:focus-within .input:focus {
+  outline: none;
+}
+.root .input::placeholder {
+  color: #706f6c;
+}
+.root:focus-within .input::placeholder {
+  outline: none;
+}
+.endIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-left: 8px;
+  display: none;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIconshowEndIcon {
+  color: #90908c;
+}
+.svg__jdv44 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
